@@ -25,7 +25,7 @@ import java.util.ListIterator;
 public class FlickrFetchr {
     //class responsible for establishing connection to Flickr, called by AsyncTask class FetchItems
     // so you guarantee the main thread doesn't execute any networking
-    private static final String API_KEY = "dddfd2d37ab57e630b0c6e0e277c680e";
+    private static final String API_KEY = /*insert your api here*/;
     private String TAG="PhotoGalleryFragment";
     private static final String FETCH_RECENTS_METHOD = "flickr.photos.getRecent";
     private static final String SEARCH_METHOD = "flickr.photos.search";
